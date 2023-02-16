@@ -5,11 +5,11 @@ import src.insights.jobs as jobs
 
 def get_unique_industries(path: str) -> List[str]:
     file_list = jobs.read(path)
-    list_unique_industry = []
+    list_unique_industries = []
     for job in file_list:
-        if job["industry"] not in list_unique_industry:
-            list_unique_industry.append(job["industry"])
-    return list_unique_industry
+        if job["industry"] not in list_unique_industries and job["industry"]:
+            list_unique_industries.append(job["industry"])
+    return list_unique_industries
 
 
 def filter_by_industry(jobs: List[Dict], industry: str) -> List[Dict]:
