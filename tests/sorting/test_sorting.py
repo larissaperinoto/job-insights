@@ -1,8 +1,11 @@
 from src.pre_built.sorting import sort_by
 
+import pytest
 
-def test_sort_by_criteria():
-    jobs = [
+
+@pytest.fixture
+def jobs(scope="module"):
+    return [
        {
         "job_title": "Data Scientist",
         "min_salary": "112157",
@@ -20,6 +23,11 @@ def test_sort_by_criteria():
         "date_posted": "2020-04-04"
         }
     ]
-    result = sort_by(jobs, "min_salary")
-    assert result[0]["job_title"] == "Associate Director"
-    assert result[2]["job_title"] == "Data Scientist"
+
+
+def test_sort_by_criteria(jobs):
+    job_list = jobs
+    sort_by(job_list, "min_salary")
+    print(job_list)
+    assert job_list[0]["job_title"] == "Associate Director"
+    assert job_list[2]["job_title"] == "Data Scientist"
