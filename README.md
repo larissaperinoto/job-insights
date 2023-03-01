@@ -1,10 +1,24 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Job Insights
+
+[Trybe](https://www.betrybe.com/) is a technology school focused on training Web Developers and the Job Insigths project was proposed as an activity to improve studies on computer Science.
+
+### Description
+
+The Job Insights project is an analysis of job data that has been incorporated into a web application developed using Flack.
+
+### Technologies and Tools
+
+<div>
+  <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" alt="Python" />
+</div>
+
+</br>
+
+The project was developed using:
+- [Python](https://www.python.org/)
+- [pytest](https://docs.pytest.org/en/7.2.x/)
+- [Flack](https://flask.palletsprojects.com/en/2.2.x/)
+
+---
+
+Developed by [Larissa Perinoto](https://larissaperinoto.com.br/), © 2023.
