@@ -4,7 +4,7 @@
 
 ### Description
 
-The Job Insights project is an analysis of job data that has been incorporated into a web application developed using Flack.
+The Job Insights project is an analysis of job data that has been incorporated into a web application.
 
 ### Technologies and Tools
 
